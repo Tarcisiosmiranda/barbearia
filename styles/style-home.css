@@ -1,0 +1,264 @@
+.cabecalho {
+    /*/Altera a cor do fundo./*/
+    background: #CCCCCC;
+    /*/Espaçamento pra cima e pra baixo de 20 e pra esquerda e direita zero./*/
+    padding: 20px 0;
+}
+
+.caixa {
+    /*/Largura da caixa./*/
+    width: 940px;
+    /*/Flexibilizar o menu dentro da caixa./*/
+    position: relative;
+    /*/Espaçamento de cima pra baixo seja zero, e de um lado para o outro calcule de forma automatica./*/
+    margin: 0 auto;
+}
+
+.navegacao {
+    /*/permite mover a posição do elemento, para o lugar que eu quiser./*/
+    position: absolute;
+    /*/Posição de espaçamento do canto superior da tela./*/
+    top: 110px;
+    /*/Posição de espaçamento do canto direita da tela./*/
+    right: 0;
+}
+
+.navegacao li {
+    /*/Altera as ancoragens para linha, ao inves de coluna./*/
+    display: inline;
+    /*/Espaçamento a esquerda./*/
+    margin: 0 0 0 15px;
+}
+
+.navegacao a {
+    /*/Transformar letras em maiusculo./*/
+    text-transform: uppercase;
+    /*/Alterar texto para cor preta./*/
+    color: #000000;
+    /*/Alterando peso da fonte para negrito./*/
+    font-weight: bold;
+    /*/Alterando o tamanho da fonte./*/
+    font-size: 22px;
+    /*/Remover sublinhado da ancora./*/
+    text-decoration: none;
+}
+
+/*/Quando o mouse passar por cima./*/
+.navegacao a:hover {
+    /*/Alterando a cor./*/
+    color: #C78C19;
+    /*/Sublinhando de novo/*/
+    text-decoration: underline;
+}
+
+body {
+    /*/Altera a fonte./*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal {
+    /*/Espaçamento./*/
+    padding: 3em 0;
+    /*/Alteração de cor./*/
+    background: #FEFEFE;
+    /*/Alteando o tamanho/*/
+    width: 940px;
+    /*/Tamanho da margem./*/
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    /*/Faz pequeno afastamento no texto, quase igual um paragrafo./*/
+    padding-left: 20px;
+}
+
+#banner {
+    /*/Faz a imagem ocupar 100% da tela./*/
+    width: 100%;
+}
+
+.titulocentralizado {
+    /*/Coloca o texto centralizado./*/
+    text-align: center;
+}
+
+p {
+    /*/Coloca o texto centralizado./*/
+    text-align: center;
+}
+
+#missao {
+    /*/Altera o tamanho da fonte/*/
+    font-size: 20px;
+}
+
+.lista-beneficios {
+    /*/Altera o estilo da fonte/*/
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.items:first-child {
+    /*/Deixando a fonte da primeira palavra da lista em negrito./*/
+    font-weight: bold;
+}
+
+.items::before {
+    /*/Colocar caracter./*/
+    content: "🟊";
+}
+
+.beneficios {
+    /*/Alterando o espaçamento./*/
+    padding: 3em 0;
+    /*/Alterando a cor do fundo./*/
+    background: #888888;
+}
+
+.imagembeneficios {
+    /*/Coloca a imagem do beneficio para ocupar 50% da tela./*/
+    width: 50%;
+}
+
+.banner {
+    /*/Coloca a imagem do banner pra ocupar 100% da tela./*/
+    width: 100%;
+}
+
+.titulo-principal {
+    /*/Deixa texto centralizado./*/
+    text-align: center;
+    /*/Deixa o tamanho da fonte o dobro do padrão./*/
+    font-size: 2em;
+    /*/Coloca espaçamento na parte de baixo./*/
+    margin: 0 0 1em;
+    /*/Limpa a formatação do float./*/
+    clear: left;
+}
+
+.principal p {
+    /*/Coloca espaçamento na parte de baixo do texto./*/
+    margin: 0 0 1em;
+}
+
+.principal b {
+    /*/Coloca texto como negrito./*/
+    font-weight: bold;
+}
+
+.principal em {
+    /*/Coloca texto como italico./*/
+    font-style: italic;
+}
+
+.conteudo-beneficios {
+    /*/Alterando o tamanho./*/
+    width: 640px;
+    /*/Alterando as propiedades da margem./*/
+    margin: 0 auto;
+}
+
+.imagem-beneficios {
+    /*/Coloca a imagem para ocupar 60% da tela./*/
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+.lista-beneficios {
+    /*/Alterando o tamanho./*/
+    width: 40%;
+    /*/Colocando a lista por coluna./*/
+    display: inline-block;
+    /*/Colocando a posição no topo da margem./*/
+    vertical-align: top;
+}
+
+.utensilios {
+    /*/Coloca imagem no tamanho de 150 px./*/
+    width: 120px;
+    /*/Coloca imagem na parte de cima do texto e do lado esquerdo da tela./*/
+    float: left;
+    /*/Alteranado a margin de espaçamento./*/
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    /*/Espaçamento./*/
+    padding: 3em 0;
+    /*/Faz transição de cor./*/
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    /*/Espaçamento da margem./*/
+    margin: 0 0 2em;
+    /*/Centraliza o texto./*/
+    text-align: center;
+}
+
+.mapa-conteudo {
+    /*/Tamanho/*/
+    width: 940px;
+    /*/Espaçamento da margem./*/
+    margin: 0 auto;
+}
+
+.video {
+    /*/Tamanho./*/
+    width: 560px;
+    /*/Margin de espaçamento./*/
+    margin: 2em auto;
+}
+
+.beneficios {
+    /*/Espaçamento./*/
+    padding: 3em 0;
+}
+
+footer {
+    /*/Colocando tudo centralizado./*/
+    text-align: center;
+    /*/Colocando um fundo de imagem preta./*/
+    background: url("/assets/bg.jpg");
+    /*/Alterando o espaçamento./*/
+    padding: 40px 0;
+}
+
+.copyright {
+    /*/Alterando a cor da fonte./*/
+    color: #FFFFFF;
+    /*/Alterando o tamanho da fonte./*/
+    font-size: 13px;
+    /*/Alterando o espaçamento da fonte./*/
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .principal,
+    .conteudo-beneficios,
+    .mapa-conteudo,
+    .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios,
+    .imagem-beneficios {
+        width: 100%;
+    }
+}

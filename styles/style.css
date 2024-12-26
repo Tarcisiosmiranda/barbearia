@@ -1,0 +1,227 @@
+.cabecalho {
+    /*/Altera a cor do fundo./*/
+    background: #CCCCCC;
+    /*/Espaçamento pra cima e pra baixo de 20 e pra esquerda e direita zero./*/
+    padding: 20px 0;
+}
+
+.caixa {
+    /*/Largura da caixa./*/
+    width: 940px;
+    /*/Flexibilizar o menu dentro da caixa./*/
+    position: relative;
+    /*/Espaçamento de cima pra baixo seja zero, e de um lado para o outro calcule de forma automatica./*/
+    margin: 0 auto;
+}
+
+.navegacao {
+    /*/permite mover a posição do elemento, para o lugar que eu quiser./*/
+    position: absolute;
+    /*/Posição de espaçamento do canto superior da tela./*/
+    top: 110px;
+    /*/Posição de espaçamento do canto direita da tela./*/
+    right: 0;
+}
+
+.navegacao li {
+    /*/Altera as ancoragens para linha, ao inves de coluna./*/
+    display: inline;
+    /*/Espaçamento a esquerda./*/
+    margin: 0 0 0 15px;
+}
+
+.navegacao a {
+    /*/Transformar letras em maiusculo./*/
+    text-transform: uppercase;
+    /*/Alterar texto para cor preta./*/
+    color: #000000;
+    /*/Alterando peso da fonte para negrito./*/
+    font-weight: bold;
+    /*/Alterando o tamanho da fonte./*/
+    font-size: 22px;
+    /*/Remover sublinhado da ancora./*/
+    text-decoration: none;
+}
+
+/*/Quando o mouse passar por cima./*/
+.navegacao a:hover {
+    /*/Alterando a cor./*/
+    color: #C78C19;
+    /*/Sublinhando de novo/*/
+    text-decoration: underline;
+}
+
+.produtos {
+    /*/Largura da caixa./*/
+    width: 940px;
+    /*/Espaçamento de cima pra baixo seja zero, e de um lado para o outro calcule de forma automatica./*/
+    margin: 0 auto;
+    /*/Espaçamento na parte de cima./*/
+    padding: 50px 0;
+}
+
+.produtos li {
+    /*/Altero a visualização de linha para coluna./*/
+    display: inline-block;
+    /*/Centraliza todo o conteúdo./*/
+    text-align: center;
+    /*/Defino que cada conteúdo ocupara 30% da tela./*/
+    width: 30%;
+    /*/Alinhar as telas pela parte de cima./*/
+    vertical-align: top;
+    /*/Espaçamento entre os quadrados./*/
+    margin: 0 1.5%;
+    /*/Espaçamento interno./*/
+    padding: 30px 20px;
+    /*/Evitar de quebrar os redimencionamentos, deixando tudo no espaço total da tela./*/
+    box-sizing: border-box;
+    /*/Espessura da borda Tipo da borda. Cor da borda./*/
+    border: 2px solid #000000;
+    /*/Deixar bordar arredondadas./*/
+    border-radius: 10px;
+}
+
+/*/Altera comportamento quando passa o mouse em cima./*/
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+/*/Altera comportamento quando clica em cima do componente./*/
+.produtos li:active {
+    border-color: #088C19;
+}
+
+/*/Altera comportamento quando passa o mouse em cima./*/
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    /*/Almentando o tamanho da fonte./*/
+    font-size: 30px;
+    /*/Deixando o texto em negrito./*/
+    font-weight: bold;
+}
+
+.produto-descricao {
+    /*/Almentando o tamanho da fonte./*/
+    font-size: 18px;
+}
+
+.produto-preco {
+    /*/Almentando o tamanho da fonte./*/
+    font-size: 22px;
+    /*/Deixando o texto em negrito./*/
+    font-weight: bold;
+    /*/Margem de espaçamento de 10 pixels./*/
+    margin-top: 10px;
+}
+
+footer {
+    /*/Colocando tudo centralizado./*/
+    text-align: center;
+    /*/Colocando um fundo de imagem preta./*/
+    background: url("/assets/bg.jpg");
+    /*/Alterando o espaçamento./*/
+    padding: 40px 0;
+}
+
+.copyright {
+    /*/Alterando a cor da fonte./*/
+    color: #FFFFFF;
+    /*/Alterando o tamanho da fonte./*/
+    font-size: 13px;
+    /*/Alterando o espaçamento da fonte./*/
+    margin: 20px 0 0;
+}
+
+main {
+    /*/Deixar centralizado./*/
+    width: 940px;
+    /*/Deixar centralizado, em conjunto com a tag margin./*/
+    margin: 0 auto;
+}
+
+form {
+    /*/Espaçamento em cima e em baixo./*/
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    /*/Quebrar os titulos por coluna./*/
+    display: block;
+    /*/Alterar o tamanho da fonte./*/
+    font-size: 20px;
+    /*/Alterar o espaçamento dos titulos./*/
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    /*/Quebrar os campos por coluna./*/
+    display: block;
+    /*/Alterar espaçamento do input./*/
+    margin: 0 0 20px;
+    /*/Altera o espaçamento interno do input./*/
+    padding: 10px 25px;
+    /*/Alterando o espaçamento para ocupar 50% da pagina./*/
+    width: 50%;
+}
+
+.checkbox {
+    /*/Aumenta o espaçamento./*/
+    margin: 20px 0;
+}
+
+.enviar {
+    /*/Almentando largura./*/
+    width: 40%;
+    /*/Almentando altura./*/
+    padding: 15px 0;
+    /*/Alterando a cor do botão./*/
+    background: orange;
+    /*/Alterando a cor da letra./*/
+    color: white;
+    /*/Deixando texto negrito./*/
+    font-weight: bold;
+    /*/Altera o tamanho da fonte./*/
+    font-size: 18px;
+    /*/Removendo borda padrão./*/
+    border: none;
+    /*/Colocando bordas arredondadadas./*/
+    border-radius: 5px;
+    /*/Transação do botão de 1 segundo em todas as propriedades./*/
+    transition: 1s all;
+    /*/Colocar mão quando passar por cima./*/
+    cursor: pointer;
+}
+
+/*/Ação quando passa o mouse em cima./*/
+.enviar:hover {
+    /*/Altera a cor do fundo./*/
+    background: green;
+    /*/Alterar todas as propridaes para 20%/*/
+    transform: scale(1.2);
+}
+
+table {
+    /*/Colocar espaçamento na parte de cima e na parte de baixo./*/
+    margin: 20px 0 40px;
+}
+
+thead {
+    /*/Alterando a cor de fundo./*/
+    background: #555555;
+    /*/Alterando a cor da letra./*/
+    color: white;
+    /*/Deixando a letra negrita./*/
+    font-weight: bold;
+}
+
+td,
+th {
+    /*/Colocando uma borda fina preta na tabela./*/
+    border: 1px solid #000000;
+    /*/Colocando espaçamento intrno./*/
+    padding: 8px 15px;
+}
